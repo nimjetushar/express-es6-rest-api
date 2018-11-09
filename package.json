@@ -8,37 +8,25 @@
     "build": "babel src -s -D -d dist --presets es2015,stage-2",
     "start": "node dist",
     "prestart": "npm run -s build",
-    "test": "eslint src"
-  },
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "parserOptions": {
-      "ecmaVersion": 7,
-      "sourceType": "module"
-    },
-    "env": {
-      "node": true
-    },
-    "rules": {
-      "no-console": 0,
-      "no-unused-vars": 1
-    }
+    "lint": "eslint src"
   },
   "author": "Tushar Nimje",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.13.3",
-    "compression": "^1.5.2",
-    "cors": "^2.7.1",
-    "express": "^4.13.3",
-    "morgan": "^1.8.0"
+    "body-parser": "1.13.3",
+    "compression": "1.5.2",
+    "cors": "2.7.1",
+    "express": "4.13.3",
+    "helmet": "3.15.0",
+    "morgan": "1.8.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.9.0",
-    "babel-core": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^3.1.1",
-    "nodemon": "^1.9.2"
+    "babel-cli": "6.9.0",
+    "babel-core": "6.9.0",
+    "babel-eslint": "10.0.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-2": "6.24.1",
+    "eslint": "5.8.0",
+    "nodemon": "1.9.2"
   }
 }

@@ -1,7 +1,5 @@
 # Express & ES6 REST API Boilerplate
 
-
-[![GitHub license](https://img.shields.io/github/license/nimjetushar/express-es6-rest-api.svg)](https://github.com/nimjetushar/express-es6-rest-api/blob/master/LICENSE)
 [![dependencies Status](https://david-dm.org/nimjetushar/express-es6-rest-api/status.svg)](https://david-dm.org/nimjetushar/express-es6-rest-api)
 [![devDependencies Status](https://david-dm.org/nimjetushar/express-es6-rest-api/dev-status.svg)](https://david-dm.org/nimjetushar/express-es6-rest-api?type=dev)
 
@@ -54,4 +52,4 @@ docker run -p 8080:8080 es6/api-service
 
 ## License
 
-MIT
+[![GitHub license](https://img.shields.io/github/license/nimjetushar/express-es6-rest-api.svg)](https://github.com/nimjetushar/express-es6-rest-api/blob/master/LICENSE)
