@@ -32,8 +32,8 @@ app.use(
   })
 );
 
-app.use(compression);
-app.use(helmet);
+app.use(compression());
+app.use(helmet());
 
 // connect to db
 initializeDb(config).then(db => {
