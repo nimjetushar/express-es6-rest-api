@@ -1,6 +1,8 @@
 # Express & ES6 REST API Boilerplate
 
+[![Build Status](https://semaphoreci.com/api/v1/nimjetushar/express-es6-rest-api/branches/master/shields_badge.svg)](https://semaphoreci.com/nimjetushar/express-es6-rest-api)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/nimjetushar/express-es6-rest-api)
+<br/>
 [![dependencies Status](https://david-dm.org/nimjetushar/express-es6-rest-api/status.svg)](https://david-dm.org/nimjetushar/express-es6-rest-api)
 [![devDependencies Status](https://david-dm.org/nimjetushar/express-es6-rest-api/dev-status.svg)](https://david-dm.org/nimjetushar/express-es6-rest-api?type=dev)
 
