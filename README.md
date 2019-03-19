@@ -29,10 +29,16 @@ rm -rf .git && git init && npm init
 npm install
 
 # Start development live-reload server
-PORT=8080 npm run dev
+npm run dev
 
 # Start production server:
-PORT=8080 npm start
+npm start
+
+# Create build
+npm run build
+
+# Test application
+npm test
 ```
 
 ## Docker Support

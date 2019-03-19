@@ -49,3 +49,5 @@ initializeDb(config).then(db => {
 });
 
 export default app;
+// eslint-disable-next-line one-var
+export const appServer = server;

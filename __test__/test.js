@@ -1,9 +1,13 @@
 import request from "supertest";
-import app from "../src/index.js";
+import app, { appServer } from "../src/index.js";
 
 describe("route tests", () => {
-    test("get home route GET /", done => {
-        request(app)
+    afterAll(() => {
+        appServer.close();
+    });
+
+    it("get home route GET /", done => {
+        return request(app)
             .get("/api")
             .then(response => {
                 expect(response.statusCode).toBe(200);
@@ -14,8 +18,8 @@ describe("route tests", () => {
             });
     });
 
-    test("get home route GET /", done => {
-        request(app)
+    it("get facets route GET /", done => {
+        return request(app)
             .get("/api/facets")
             .then(response => {
                 expect(response.statusCode).toBe(200);
